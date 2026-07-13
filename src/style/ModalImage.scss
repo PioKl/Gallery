@@ -37,4 +37,14 @@
       cursor: pointer;
     }
   }
+
+  &__image {
+    object-fit: contain;
+    @media (min-width: 425px) {
+      height: 79vh;
+    }
+    @include desktopSmall {
+      height: 85.5vh;
+    }
+  }
 }
